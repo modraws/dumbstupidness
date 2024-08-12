@@ -1,4 +1,3 @@
-# NOTE, IF YOU WANT DUMBSTUPIDNESS TO AUTOMATICALLY UPDATE, PLEASE INSTALL GIT ONTO YOUR PC!!!
 ![dumbstupidnesslogo](https://github.com/user-attachments/assets/d6b3bd6a-f541-48ac-9019-a0c1767717d5)
 
 yeah
