@@ -1,0 +1,27 @@
+# smaller list e.g. reticles
+"funny hash name": "29443f1943029d8c9d998121762ee5bb",
+
+# bigger list e.g. textures
+"29443f1943029d8c9d998121762ee5bb",
+"29443f1943029d8c9d998121762ee5bb",
+"29443f1943029d8c9d998121762ee5bb",
+
+# custom categories (both types of listings )
+"more fucking images of my avatar": {
+    "29443f1943029d8c9d998121762ee5bb",
+    "29443f1943029d8c9d998121762ee5bb",
+    "29443f1943029d8c9d998121762ee5bb",
+    },
+"more images of my avatar but now there's subcategories":{
+    "yeah it's the same image over and over fuck you":{
+        "29443f1943029d8c9d998121762ee5bb",
+        "29443f1943029d8c9d998121762ee5bb",
+        }
+    "i won't stop reusing this hash because i'm too lazy to copy another one":{
+        "29443f1943029d8c9d998121762ee5bb",
+        "29443f1943029d8c9d998121762ee5bb",
+        "29443f1943029d8c9d998121762ee5bb",
+        }
+    }
+
+# pay attention to the indent (the amount of space) between each layer

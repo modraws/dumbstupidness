@@ -1,0 +1,13 @@
+                case 89:
+                    mo_option = input(f"Enter option:\n1: \033[95mYOLO Pilad 3{DEFAULT} (join https://rblx.games/18580671315 for this to work!)\n2: \033[95mSoyCOG 6x{DEFAULT} (join https://rblx.games/18580671315 for this to work!)\n3: \033[95mReplace the start up swoosh{DEFAULT}\n4: \033[95mStriped sleeves funny{DEFAULT}\nEnter option: ")
+                    match int(mo_option):
+                        case 1: 
+                            replace(['9e0d4a22b0de11ac506f5478fa88f826'], '4bee1c8a394923bee7078462a27db7a7')
+                        case 2: 
+                            replace(['c814f34c89a61186ef38bd3e50e1f98f'], '6c4eae63d97c83a4bd970a57f783cade')
+                        case 3: 
+                            replace(['fdbab7608661dafc624b781910efd953'], dlist("replacement sounds"))
+                        case 4:
+                            replace(['aa33dd87fc9db92e891361e069da1849'], '96981f813030ca1f86c424dcb3c22371')
+                        case _:
+                            print("Enter a Valid Option!")
