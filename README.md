@@ -1,6 +1,11 @@
 # python dumbstupidness.py
 or add the line below to your run.bat  
 `python "%~dp0dumbstupidness.py"`
+
+big thanks to  
+@zerodelta_ for a zip bomb's worth of reticles jesus shit  
+@rhayets for the very cool reticle he provided  
+the guys from the [fleasion project](https://github.com/CroppingFlea479/Fleasion) for letting me shit all over it lol
 ![dumbstupidnesslogo](https://github.com/user-attachments/assets/d6b3bd6a-f541-48ac-9019-a0c1767717d5)
 
 yeah
@@ -11,7 +16,7 @@ cd to that specific folder (just copy the path from the top bar, type cd in comm
 and run python dumbstupidness.py to set everything up.  
 can't be easier, i hope
 
-be sure to join ![this roblox place](https://rblx.games/18580671315) to cache all the images and sounds and whateverthefuck
+be sure to join [this roblox place](https://rblx.games/18580671315) to cache all the images and sounds and whateverthefuck
 
 you can always ask me to add your own assets to dumbstupidness  
 just reach out to me on discord, my username is and always will be @modraws
