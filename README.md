@@ -1,4 +1,4 @@
-![dumbstupidnesslogo](https://github.com/user-attachments/assets/c0671337-3457-4ceb-87aa-68e7ec329ad7)
+![dumbstupidnesslogo](https://github.com/user-attachments/assets/d6b3bd6a-f541-48ac-9019-a0c1767717d5)
 
 yeah
 
