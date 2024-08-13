@@ -19,4 +19,6 @@ can't be easier, i hope
 be sure to join [this roblox place](https://rblx.games/18580671315) to cache all the images and sounds and whateverthefuck
 
 you can always ask me to add your own assets to dumbstupidness  
-just reach out to me on discord, my username is and always will be @modraws
+just reach out to me on discord, my username is and always will be @modraws  
+alternatively, you can open a pull request with the asset or asset id if you've already uploaded it  
+and i'll add that
