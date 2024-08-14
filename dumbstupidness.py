@@ -32,7 +32,7 @@ with open('fleasion.py','r') as file2:
                 file1_lines = file1.readlines()
                 file2_lines = file2.readlines()
 
-            print("Added entries for your custom presets!")
+            print("\033[32mAdded entries for Dumbstupidness in the main menu.\033[0m\n")
 
             new_lines = file2_lines[:insert_row] + file1_lines + file2_lines[insert_row:]
     
@@ -61,28 +61,6 @@ with open('fleasion.py','r') as file2:
             with open('fleasion.py', 'w') as file2:
                 file2.writelines(new_lines)
 
-with open('fleasion.py','r') as file2:
-    phrase='case 0:'
-    badphrase='mo_option'
-
-    for (insert_row, line) in enumerate(file2):
-        if badphrase in line:
-            break
-        if phrase in line:
-            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnessreticles.txt')
-            with open('dumbstupidness/dumbstupidnessreticles.txt', 'wb') as f:
-                f.write(response.content)
-            with open('dumbstupidness/dumbstupidnesspresets.txt', 'r') as file1, open('fleasion.py', 'r') as file2:
-                file1_lines = file1.readlines()
-                file2_lines = file2.readlines()
-
-            print("\033[32mPasted Dumbstupidness presets in fleasion.py.\033[0m\n")
-
-            new_lines = file2_lines[:insert_row] + file1_lines + file2_lines[insert_row:]
-    
-            with open('fleasion.py', 'w') as file2:
-                file2.writelines(new_lines)
-
 with open('assets.json','r') as file2:
     phrase='"reticle replacement": {'
     badphrase='18580671315'
@@ -91,11 +69,36 @@ with open('assets.json','r') as file2:
         if badphrase in line:
             break
         if phrase in line:
+            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnessreticles.txt')
+            with open('dumbstupidness/dumbstupidnessreticles.txt', 'wb') as f:
+                f.write(response.content)
             with open('dumbstupidness/dumbstupidnessreticles.txt', 'r') as file1, open('assets.json', 'r') as file2:
                 file1_lines = file1.readlines()
                 file2_lines = file2.readlines()
 
-            print("\033[32mPasted Dumbstupidness replacement reticles under " + phrase + " in assets.json.\033[0m\n")
+            print("\033[32mPasted Dumbstupidness reticles under " + phrase + " in assets.json.\033[0m\n")
+
+            new_lines = file2_lines[:insert_row+1] + file1_lines + file2_lines[insert_row+1:]
+    
+            with open('assets.json', 'w') as file2:
+                file2.writelines(new_lines)
+
+with open('assets.json','r') as file2:
+    phrase='"skins": {'
+    badphrase='programmer socks'
+
+    for (insert_row, line) in enumerate(file2):
+        if badphrase in line:
+            break
+        if phrase in line:
+            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnesskins.txt')
+            with open('dumbstupidness/dumbstupidnessskins.txt', 'wb') as f:
+                f.write(response.content)
+            with open('dumbstupidness/dumbstupidnessskins.txt', 'r') as file1, open('assets.json', 'r') as file2:
+                file1_lines = file1.readlines()
+                file2_lines = file2.readlines()
+
+            print("\033[32mPasted Dumbstupidness skins under " + phrase + " in assets.json.\033[0m\n")
 
             new_lines = file2_lines[:insert_row+1] + file1_lines + file2_lines[insert_row+1:]
     
@@ -110,14 +113,14 @@ with open('assets.json','r') as file2:
         if badphrase in line:
             break
         if phrase in line:
-            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnessstartupsounds.txt')
-            with open('dumbstupidness/dumbstupidnessstartupsounds.txt', 'wb') as f:
+            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnesssounds.txt')
+            with open('dumbstupidness/dumbstupidnesssounds.txt', 'wb') as f:
                 f.write(response.content)
-            with open('dumbstupidness/dumbstupidnessstartupsounds.txt', 'r') as file1, open('assets.json', 'r') as file2:
+            with open('dumbstupidness/dumbstupidnesssounds.txt', 'r') as file1, open('assets.json', 'r') as file2:
                 file1_lines = file1.readlines()
                 file2_lines = file2.readlines()
 
-            print("\033[32mPasted Dumbstupidness startup sounds under " + phrase + " in assets.json. You can replace these from my custom presets!\033[0m\n")
+            print("\033[32mPasted Dumbstupidness sounds under " + phrase + " in assets.json.\033[0m\n")
 
             new_lines = file2_lines[:insert_row] + file1_lines + file2_lines[insert_row:]
     
