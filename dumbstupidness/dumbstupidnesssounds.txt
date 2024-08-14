@@ -4,5 +4,5 @@
         "a few seconds of Cold Front (join https://rblx.games/18580671315 first)": "78055240df6907abd0f83294ad34986d",
         "sad little orange feat. Everlong by the Foo Fighters (join https://rblx.games/18580671315 first)": "0aac378bd8e1bcb0e9c886846d2432ae",
         "Bowser junior (join https://rblx.games/18580671315 first)": "eee41255585819ab4cb00c7ccb59cce7",
-        "Win! (join https://rblx.games/18580671315 first)": "299142902855b9b65e4fe7b413a14462.ogg"
+        "Win! (join https://rblx.games/18580671315 first)": "299142902855b9b65e4fe7b413a14462"
         },
