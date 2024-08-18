@@ -85,13 +85,13 @@ with open('assets.json','r') as file2:
 
 with open('assets.json','r') as file2:
     phrase='"skins": {'
-    badphrase='programmer socks'
+    badphrase='the originals'
 
     for (insert_row, line) in enumerate(file2):
         if badphrase in line:
             break
         if phrase in line:
-            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnesskins.txt')
+            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnessskins.txt')
             with open('dumbstupidness/dumbstupidnessskins.txt', 'wb') as f:
                 f.write(response.content)
             with open('dumbstupidness/dumbstupidnessskins.txt', 'r') as file1, open('assets.json', 'r') as file2:
@@ -107,7 +107,7 @@ with open('assets.json','r') as file2:
 
 with open('assets.json','r') as file2:
     phrase='"hit sounds": {'
-    badphrase='"startup swoosh": {'
+    badphrase='Full Force'
 
     for (insert_row, line) in enumerate(file2):
         if badphrase in line:
