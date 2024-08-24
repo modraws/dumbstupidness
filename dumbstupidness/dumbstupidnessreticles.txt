@@ -80,5 +80,12 @@
                 "y34 by @zerodelta_": "3faffec4ed2682737f3218bfb0a543c9",
                 "y35 by @zerodelta_": "3deadbfead6cd3bbf03e663c5cdf2349",
                 "y36 by @zerodelta_": "2434c6b2848604889e56305ed21497e1"
+            },
+            "neohena collection 'delta'":{
+                "crescent": "336bdf5a1ad3f1e5511725d7445f7952",
+                "eclipse": "e857aac236cedbf40b48ecb2674ebcb2",
+                "hartman": "c768de5daf1a647eecbb17701f90726b",
+                "hollow point": "cc486b397be1e8c6856bab63d6ea3d83",
+                "predator": "0e41a227e45c4e48217fb4fa554bf727"
             }
         },
