@@ -6,6 +6,7 @@ big thanks to
 @zerodelta_ for a zip bomb's worth of reticles jesus shit  
 @rhayets for the very cool reticle he provided  
 @neohena for his delta collection very epic  
+@xn.r for letting me steal his custom arms thing
 the guys from the [fleasion project](https://github.com/CroppingFlea479/Fleasion) for letting me shit all over it lol
 ![dumbstupidnesslogo](https://github.com/user-attachments/assets/d6b3bd6a-f541-48ac-9019-a0c1767717d5)
 
