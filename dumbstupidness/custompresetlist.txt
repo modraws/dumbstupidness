@@ -1,3 +1,3 @@
-        print(
-            f"\ncustom replacement lists:\n89:  \033[95mDumbstupidness{DEFAULT} (created and maintained by modraws)")
-            # wanna add your own listing? please add it to the custompresetlist.txt file, instead of in here.
+    print(
+        f"\ncustom replacement lists:\n89:  \033[95mDumbstupidness{DEFAULT} (created and maintained by modraws)")
+        # wanna add your own listing? please add it to the custompresetlist.txt file, instead of in here.
