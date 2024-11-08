@@ -23,6 +23,7 @@ with open('fleasion.py','r') as file2:
 
     for (insert_row, line) in enumerate(file2):
         if badphrase in line:
+            print("\033[95mI didn't add any entries. Either it's already there or Mo has made a fuckup.\033[0m\n")
             break
         if phrase in line:
             response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/custompresetlist.txt')
@@ -45,6 +46,7 @@ with open('fleasion.py','r') as file2:
 
     for (insert_row, line) in enumerate(file2):
         if badphrase in line:
+            print("\033[95mI didn't paste the preset entry. Either the entry's already there or Mo has made a fuckup.\033[0m\n")
             break
         if phrase in line:
             response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnesspresets.txt')
@@ -67,6 +69,7 @@ with open('assets.json','r') as file2:
 
     for (insert_row, line) in enumerate(file2):
         if badphrase in line:
+            print("\033[95mI didn't paste the reticles. Either the entry's already there or Mo has made a fuckup.\033[0m\n")
             break
         if phrase in line:
             response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnessreticles.txt')
@@ -85,10 +88,11 @@ with open('assets.json','r') as file2:
 
 with open('assets.json','r') as file2:
     phrase='"skins": {'
-    badphrase='the originals'
+    badphrase='"programmer socks for your arms": "96981f813030ca1f86c424dcb3c22371"'
 
     for (insert_row, line) in enumerate(file2):
         if badphrase in line:
+            print("\033[95mI didn't paste the sleeves. Either the entry's already there or Mo has made a fuckup.\033[0m\n")
             break
         if phrase in line:
             response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnessskins.txt')
@@ -111,6 +115,7 @@ with open('assets.json','r') as file2:
 
     for (insert_row, line) in enumerate(file2):
         if badphrase in line:
+            print("\033[95mI didn't paste the sounds. Either the entry's already there or Mo has made a fuckup.\033[0m\n")
             break
         if phrase in line:
             response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnesssounds.txt')
