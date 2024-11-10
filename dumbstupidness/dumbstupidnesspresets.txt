@@ -1,5 +1,5 @@
             case 89:
-                mo_option = input(f"Enter option:\n1: \033[95mYOLO Pilad 3{DEFAULT} (join https://rblx.games/18580671315 for this to work!)\n2: \033[95mSoyCOG 6x{DEFAULT} (join https://rblx.games/18580671315 for this to work!)\n3: \033[95mReplace the start up swoosh{DEFAULT}\n4: \033[95mKousaku sight delete (basically a remove irons now){DEFAULT}\n5: \033[95mStriped sleeves funny{DEFAULT}\n6: \033[94mCustom sleeves and textured gloves{DEFAULT} (join https://rblx.games/73035573082067 for this to work!)\nMore customisation via the other options!\nEnter option: ")
+                mo_option = input(f"Enter option:\n1: \033[95mYOLO Pilad 3{DEFAULT} (join https://rblx.games/18580671315 for this to work!)\n2: \033[95mSoyCOG 6x{DEFAULT} (join https://rblx.games/18580671315 for this to work!)\n3: \033[95mReplace the start up swoosh{DEFAULT}\n4: \033[95mnKousaku sight delete (basically a remove irons now){DEFAULT}\n5: \033[95mStriped sleeves funny{DEFAULT}\n6: \033[94mCustom sleeves and textured gloves{DEFAULT} (join https://rblx.games/73035573082067 for this to work!)\n7: \033[95mnaked operatorsl{DEFAULT}\nMore customisation via the other options!\nEnter option: ")
                 match int(mo_option):
                     case 1: 
                         replace(['9e0d4a22b0de11ac506f5478fa88f826'], '4bee1c8a394923bee7078462a27db7a7')
@@ -14,5 +14,6 @@
                     case 6:
                         replace(['7ea2f992988aea2fd6431f9906174fe4', '5de75379be644ee64d7ad3101d3acce0'], '5873cfba79134ecfec6658f559d8f320')
                         replace(['0417f106902be46503fc75266526817a'], '0321e9d9a87b67de48c87bf4360ad884')
+                        replace(['18ff02c763205099ce8542cebc98ae71'], 'd768cdda6f6ffbccada7497bd88b8bdb')
                     case _:
                         print("Enter a Valid Option!")
