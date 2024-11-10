@@ -3,11 +3,18 @@ import os
 import time
 import sys
 
-f = open('dumbstupidness/true.txt', "w")
-f.write("""mod_cache = True
-pf_cache = True
-""")
-f.close()
+updatewarn = input(
+    f"\n\033[95mHey, just so you know, you can update me now!\nMakes it easy for when I've got new versions of this file you're executing.\nJust to be clear, I've already been grabbing the newest versions of my entries in assets.json and fleasion.py.\nBut sometimes changes will be made to ME too, and you can update me then!\nKeep an eye out on the Dumbstupidness post in #more-fleasion for when Mo updates me!\n\nType 'install' to update me. I'll close after this, so make sure to run me again!\nAny other input will continue to the next step, which is installing Dumbstupidness proper.\n\033[0m")
+if updatewarn == "install":
+    os.remove("dumbstupidness.py")
+    response = requests.get('https://github.com/modraws/dumbstupidness/raw/refs/heads/main/dumbstupidness.py')
+    with open('dumbstupidness.py', 'wb') as f:
+        f.write(response.content)
+    print("\033[95mAlright, Dumbstupidness is updated! Make sure to skip this prompt next time you launch me.\033[0m")
+    time.sleep(3)
+    sys.exit(0)
+else:
+    pass
 
 blockwarn = input(
     f"\n\033[32mWarning: I have been created to, in all technicalities, delete and reinstall fleasion.py and assets.json.\nThis is so I can inject Dumbstupidness into a fresh clean slate.\nI promise, pinky promise (even though I don't have pinkies), that I won't touch your custom presets.\nI know you put a lot of effort in creating those.\nBut if you've edited either fleasion.py or assets.json yourself,\nI implore you to back-up the changes you've made.\n\nI can also, alternatively, not reinstall Fleasion, and just bruteforce the installation.\nIf you've installed Dumbstupidness before, you WILL I repeat WILL see duplicate entries in everything.\n\nType 'install' to update and overwrite fleasion.py and assets.json,\n'skip' to bruteforce the Dumbstupidness install,\nor just press ENTER if you're uncertain. I'll close the program for you.\n\033[0m")
@@ -16,17 +23,17 @@ if blockwarn == "install":
     response = requests.get('https://raw.githubusercontent.com/CroppingFlea479/Fleasion/main/fleasion.py')
     with open('fleasion.py', 'wb') as f:
         f.write(response.content)
-    print("\033[32mThat's Fleasion done,")
+    print("\033[32mThat's Fleasion done,\033[0m")
     os.remove("assets.json")
     response = requests.get('https://raw.githubusercontent.com/CroppingFlea479/Fleasion/main/assets.json')
     with open('assets.json', 'wb') as f:
         f.write(response.content)
     print("\033[32m...and that's the assets list! Alright, I will now inject my dumbstupid beauty into these newly fetched files.")
-elif blockwarn == "skip":
-    print("\033[32m...aaalllright, if you're that certain.")
+else if blockwarn == "skip":
+    print("\033[32m...aaalllright, if you're that certain.\033[0m")
     pass
 else:
-    print("\033[32mYeah, I get that. I'll see you when you really want to install Dumbstupidness. Buhbye!")
+    print("\033[32mYeah, I get that. I'll see you when you really want to install Dumbstupidness. Buhbye!\033[0m")
     time.sleep(3)
     sys.exit(0)
 
@@ -138,6 +145,12 @@ if checkwarn == "disable":
 
         for (insert_row, line) in enumerate(file2):
             if phrase in line:
+		f = open('dumbstupidness/true.txt', "w")
+		f.write("""mod_cache = True
+		pf_cache = True
+		""")
+		f.close()
+
                 with open('dumbstupidness/true.txt', 'r') as file1, open('fleasion.py', 'r') as file2:
                     file1_lines = file1.readlines()
                     file2_lines = file2.readlines()

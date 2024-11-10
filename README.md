@@ -1,7 +1,7 @@
 # python dumbstupidness.py
 or add the line below to your run.bat  
 `python "%~dp0dumbstupidness.py"`
-## IF ANY HASHES DON'T WORK, PLEASE PING ME!!! @modraws ON DISCORD
+
 big thanks to  
 @zerodelta_ for a zip bomb's worth of reticles jesus shit  
 @rhayets for the very cool reticle he provided  
