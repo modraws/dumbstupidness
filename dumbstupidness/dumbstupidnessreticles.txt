@@ -8,7 +8,7 @@
                 "x3: eotech exps3-dcr without the chevron, by @zerodelta_": "0189e3f8dbdd2604c9b87e1adf1f561f",
                 "x3 alt: the above but sized up, by @zerodelta_": "353ce12912ac946ec18c78eec8da2bcc",
                 "owo": "b110054d43125d6fa477dfae373e99ac",
-                "uwu": "3628e7abd71dcd8daea742245972e6f2",
+                "uwu": "3628e7abd71dcd8daea742245972e6f2"
             },
             "zerodelta x-collection (smaller and shaded)":{
                 "x4 by @zerodelta_": "eae8fc3c9bb5908236a39e416aaa0d32",
@@ -88,7 +88,7 @@
                 "predator": "0e41a227e45c4e48217fb4fa554bf727",
                 "targeted": "8a0a9012b687ef123740405b48deb97b",
                 "focused": "29cefedc279eb945d5113a793bffe796",
-                "digital threat": "32a599014ec1e056abdd5f9e8059dca3"
+                "digital threat": "32a599014ec1e056abdd5f9e8059dca3",
                 "digital threat v2 (little bigger)": "0d11bb0e65c604e12d745c18ea111684",
                 "interested owo (not kidding that's the name he gave it)": "fb9850e08a3e56019ee835788b7eceab",
                 "neohena's stupid smug face": "6887c05968c7726fa73ca673071d2c02"
