@@ -6,10 +6,19 @@
             "Bowser junior": "eee41255585819ab4cb00c7ccb59cce7",
             "Win!": "299142902855b9b65e4fe7b413a14462",
             "m1 garand ping idk": "beeba63b2aa4a86029230dc9a13daa1f",
-            "risk of rain 2 hitsound provided by @neohena":"9e7b909e20e539d1ba739a3bf75fadb9",
+            "risk of rain 2 hitsound provided by @neohena":"8eb72803266b9972e8d56f6dcad54506",
             "risk of rain 2 killsound provided by @neohena":"e01d5c4a17afa57841da48124d1ec640",
             "color bass hitsound provided by @neohena":"9e7b909e20e539d1ba739a3bf75fadb9",
             "color bass killsound provided by @neohena":"c08f231add4ceb0caf8fa6d1fed7cca7",
             "ultrakill hitsound provided by @neohena":"1b44dcc390b736ca4b4d3950a98ea303",
             "ultrakill killsound provided by @neohena":"2b427c86debefd16930abefd9a527a86"
+        },
+        "notsodumb soundpack demo by @neohena": {
+	    "M4 fire": "7d13012c6ad0b0187a9e2c9577013866",
+	    "M16 fire": "e6795b7d9ad8a413ec7f0093c37c3d11",
+	    "AR15 drop": "0f84f3b07e66a21eb68d0a017e5b8f22",
+	    "AR15 insert 1": "ae889db5feb37fc5be55f7cd66e5a70b",
+	    "AR15 insert 2": "70be4230496da119c61a1a3de1d9f67e",
+	    "M4 slap 2": "388c856cb5dc425129a5bbe07b9de133",
+	    "M16 bolt": "107e7999c2e65298265f4f80a937020e"
         },
