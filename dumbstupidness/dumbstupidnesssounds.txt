@@ -14,11 +14,20 @@
             "ultrakill killsound provided by @neohena":"2b427c86debefd16930abefd9a527a86"
         },
         "notsodumb soundpack demo by @neohena": {
-	    "M4 fire": "7d13012c6ad0b0187a9e2c9577013866",
-	    "M16 fire": "e6795b7d9ad8a413ec7f0093c37c3d11",
-	    "AR15 drop": "0f84f3b07e66a21eb68d0a017e5b8f22",
-	    "AR15 insert 1": "ae889db5feb37fc5be55f7cd66e5a70b",
-	    "AR15 insert 2": "70be4230496da119c61a1a3de1d9f67e",
-	    "M4 slap 2": "388c856cb5dc425129a5bbe07b9de133",
-	    "M16 bolt": "107e7999c2e65298265f4f80a937020e"
+	    "m4 fire": "b8d53f6a159a8f2ff959ef47f71fae4d",
+	    "m16 fire": "5a92ec2bb6df54d9778345d0e1937ae1",
+	    "m16a1 fire": "58f26121c152eea38fd1971e40f20cc0",
+	    "c7 fire": "7fd760b9df142b3c3fc9b13d73051b81",
+	    "c8 fire": "42a7b7971ece32f183f6449a6b38c662",
+	    "honey badger fire": "c2a70a3c9549cb671e0f7bc86ddde238",
+	    "ar15 magdrop": "1af49ce63421d4a39260776b8857fa90",
+	    "ar15 maginsert 1": "ae889db5feb37fc5be55f7cd66e5a70b",
+	    "ar15 maginsert 2": "a01ad1783dc41a7dd1bba45c76dcaebc",
+	    "ar15 magdrop alt": "4cbf5bb11cfe58a250ed52684a65e1d1",
+            "ar15 maginsert alt": "c0c86cd6b8263f73222251601b8bd294",
+	    "m4 mag insert": "80b313db1219204eb73144bd944209df",
+	    "m4 slap 1": "388c856cb5dc425129a5bbe07b9de133",
+	    "m4 slap 2": "da36beb40d8df0b76d60c4bf885b0adf",
+	    "m16 bolt": "107e7999c2e65298265f4f80a937020e",
+	    "c7 bolt": "a5bb495bdb80e664584bd4af85d72f4a"
         },
