@@ -86,7 +86,7 @@
                 "hartman": "c768de5daf1a647eecbb17701f90726b",
                 "hollow point": "cc486b397be1e8c6856bab63d6ea3d83",
                 "predator": "0e41a227e45c4e48217fb4fa554bf727",
-                "digital threat": "32a599014ec1e056abdd5f9e8059dca3",
+                "digital threat": "32a599014ec1e056abdd5f9e8059dca3"
             },
            "neohena collection 'neoled'":{
                 "targeted": "8a0a9012b687ef123740405b48deb97b",
