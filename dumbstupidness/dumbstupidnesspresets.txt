@@ -37,9 +37,9 @@
                         replace(['aa23766c9417a8f64562e526f9885a6a'], '6f8631b3e6aa78427c236ca800c35d31')
                         replace(['fcbad3d8348b44de68b14eafe4f7a1a3'], 'af3d739c038f8d2131c32b9b379656bc')
                         replace(['36944683beb83ae89a2f643c2fc89c0a'], 'b5c7fafd80d12d3d512a0484bd0e7f73')
-		replace(['79c18352a942336ab053cb98a3fb7b0b'], '948b88586dc766a6b8d280f23c7dc798')
-		replace(['b9e21999a84f260a2c3f11d36ecec8e4'], 'd360c11c9c9801d8dd631d612f811a79')
-	            replace(['58d3910d0a4202fa2a4cc3bcad04de92'], 'dde3f73497119a90edf971305b0c600e')
-		replace(['e26c6f2f9f4d5980f5ab02d7104f1c97'], '1fd78a5f39e182220ebbef3f5a1402de')
+			replace(['79c18352a942336ab053cb98a3fb7b0b'], '948b88586dc766a6b8d280f23c7dc798')
+			replace(['b9e21999a84f260a2c3f11d36ecec8e4'], 'd360c11c9c9801d8dd631d612f811a79')
+	            	replace(['58d3910d0a4202fa2a4cc3bcad04de92'], 'dde3f73497119a90edf971305b0c600e')
+			replace(['e26c6f2f9f4d5980f5ab02d7104f1c97'], '1fd78a5f39e182220ebbef3f5a1402de')
                     case _:
                         print("Enter a Valid Option!")
