@@ -15,22 +15,5 @@
                         replace(['7ea2f992988aea2fd6431f9906174fe4', '5de75379be644ee64d7ad3101d3acce0'], '5873cfba79134ecfec6658f559d8f320')
                         replace(['0417f106902be46503fc75266526817a'], '0321e9d9a87b67de48c87bf4360ad884')
                         replace(['18ff02c763205099ce8542cebc98ae71'], 'd768cdda6f6ffbccada7497bd88b8bdb')
-                    case 7:
-                        replace(['35d027e08fc4f66011efc5aa215edf7d'], 'b8d53f6a159a8f2ff959ef47f71fae4d')
-                        replace(['20178d7285faf3f539d59a358bcb2e66'], '5a92ec2bb6df54d9778345d0e1937ae1')
-                        replace(['019871cff77ec1e689c8c10916b5e64e'], '58f26121c152eea38fd1971e40f20cc0')
-                        replace(['a64dbcfd7fa148b5e35e4377bfb68c99'], '7fd760b9df142b3c3fc9b13d73051b81')
-                        replace(['d40d970b7a96c87b6ab22af3d6f534dc', '63b59ec3cee007e3e37fd48423fbaf4f'], '42a7b7971ece32f183f6449a6b38c662')
-                        replace(['18a6668af40b844e4433d077cbaa94ff'], 'c2a70a3c9549cb671e0f7bc86ddde238')
-                        replace(['ee521d6c261b774353255ece51b318ac'], '1af49ce63421d4a39260776b8857fa90')
-                        replace(['d08406d92446bad00ab5ec097cd18e17'], 'ae889db5feb37fc5be55f7cd66e5a70b')
-                        replace(['8e00da7ce2a19fb9ecae61e563a48b50'], 'a01ad1783dc41a7dd1bba45c76dcaebc')
-                        replace(['43eea927b2548e658ad9148962738f33', '60fecbe2022892d3467b57eb44f76afa'], '80b313db1219204eb73144bd944209df')
-                        replace(['5a8536998127dbd36aeeca3392b00716'], '4cbf5bb11cfe58a250ed52684a65e1d1')
-                        replace(['855333d48bdc3e34fc78b6530e656953'], '107e7999c2e65298265f4f80a937020e')
-                        replace(['f9655b6a6e5e87c122bbf71bec7f955b'], 'a5bb495bdb80e664584bd4af85d72f4a')
-                        replace(['ec11d28ca2992e9cf2a9384727847d29'], '388c856cb5dc425129a5bbe07b9de133')
-                        replace(['9d7dc274ce3b0eb07dcf3a9679f184a3'], 'da36beb40d8df0b76d60c4bf885b0adf')
-                        # not sorry for how messy this looks lol
                     case _:
                         print("Enter a Valid Option!")
