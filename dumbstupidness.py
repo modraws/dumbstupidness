@@ -135,33 +135,3 @@ with open('assets.json','r') as file2:
     
             with open('assets.json', 'w') as file2:
                 file2.writelines(new_lines)
-time.sleep(0.3)
-
-checkwarn = input(
-    f"\n\033[95mHey, if you want, I can also disable the cache checks.\nI get how annoying they become after a few times of wiping cache, trust me.\nJust let me do my magic.\nType 'disable' to proceed, any other input will stop this program from changing cache checking settings.\n\033[0m")
-if checkwarn == "disable":
-    with open('fleasion.py','r') as file2:
-        phrase='pf_cache = False'
-
-        for (insert_row, line) in enumerate(file2):
-            if phrase in line:
-		f = open('dumbstupidness/true.txt', "w")
-		f.write("""mod_cache = True
-		pf_cache = True
-		""")
-		f.close()
-
-                with open('dumbstupidness/true.txt', 'r') as file1, open('fleasion.py', 'r') as file2:
-                    file1_lines = file1.readlines()
-                    file2_lines = file2.readlines()
-
-                print("Boom!\n")
-
-                new_lines = file2_lines[:insert_row+1] + file1_lines + file2_lines[insert_row+1:]
-
-                with open('fleasion.py', 'w') as file2:
-                    file2.writelines(new_lines)
-                os.remove('dumbstupidness/true.txt')
-else:
-    os.remove('dumbstupidness/true.txt')
-    pass
