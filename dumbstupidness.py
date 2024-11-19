@@ -29,7 +29,7 @@ if blockwarn == "install":
     with open('assets.json', 'wb') as f:
         f.write(response.content)
     print("\033[32m...and that's the assets list! Alright, I will now inject my dumbstupid beauty into these newly fetched files.")
-else if blockwarn == "skip":
+elif blockwarn == "skip":
     print("\033[32m...aaalllright, if you're that certain.\033[0m")
     pass
 else:
