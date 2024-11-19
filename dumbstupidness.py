@@ -58,7 +58,7 @@ with open('fleasion.py','r') as file2:
 time.sleep(0.3)
 
 with open('fleasion.py','r') as file2:
-    phrase='case 0:'
+    phrase='match int(options):'
 
     for (insert_row, line) in enumerate(file2):
         if phrase in line:
@@ -71,7 +71,7 @@ with open('fleasion.py','r') as file2:
 
             print("\033[32mPasted Dumbstupidness presets in fleasion.py.\033[0m\n")
 
-            new_lines = file2_lines[:insert_row] + file1_lines + file2_lines[insert_row:]
+            new_lines = file2_lines[:insert_row+1] + file1_lines + file2_lines[insert_row+1:]
     
             with open('fleasion.py', 'w') as file2:
                 file2.writelines(new_lines)
