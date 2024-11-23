@@ -139,4 +139,4 @@ with open('assets.json','r') as file2:
 time.sleep(0.3)
 print("\033[95mAlright, all should be good! Now run Fleasion.py, and hopefully the changes should've been made.")
 os.system('pause')
-print("\033[0m")"
+print("\033[0m")
