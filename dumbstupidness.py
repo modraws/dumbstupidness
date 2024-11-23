@@ -4,7 +4,7 @@ import time
 import sys
 
 updatewarn = input(
-    f"\n\033[95mHey, just so you know, you can update me now!\nMakes it easy for when I've got new versions of this file you're executing.\nJust to be clear, I've already been grabbing the newest versions of my entries in assets.json and fleasion.py.\nBut sometimes changes will be made to ME too, and you can update me then!\nKeep an eye out on the Dumbstupidness post in #more-fleasion for when Mo updates me!\n\nType 'install' to update me. I'll close after this, so make sure to run me again!\nAny other input will continue to the next step, which is installing Dumbstupidness proper.\n\033[0m")
+    f"\n\033[95mHey, just so you know, you can update me now!\nMakes it easy for when I've got new versions of this file you're executing.\nJust to be clear, I've already been grabbing the newest versions of my entries in assets.json and fleasion.py.\nBut sometimes changes will be made to ME too, and you can update me then!\nKeep an eye out on the dumbstupidness-updates channel for when Mo or Neo updates me!\n\nType 'install' to update me. I'll close after this, so make sure to run me again!\nAny other input will continue to the next step, which is installing Dumbstupidness proper.\n\033[0m")
 if updatewarn == "install":
     os.remove("dumbstupidness.py")
     response = requests.get('https://github.com/modraws/dumbstupidness/raw/refs/heads/main/dumbstupidness.py')
@@ -17,7 +17,7 @@ else:
     pass
 
 blockwarn = input(
-    f"\n\033[32mWarning: I have been created to, in all technicalities, delete and reinstall fleasion.py and assets.json.\nThis is so I can inject Dumbstupidness into a fresh clean slate.\nI promise, pinky promise (even though I don't have pinkies), that I won't touch your custom presets.\nI know you put a lot of effort in creating those.\nBut if you've edited either fleasion.py or assets.json yourself,\nI implore you to back-up the changes you've made.\n\nI can also, alternatively, not reinstall Fleasion, and just bruteforce the installation.\nIf you've installed Dumbstupidness before, you WILL I repeat WILL see duplicate entries in everything.\n\nType 'install' to update and overwrite fleasion.py and assets.json,\n'skip' to bruteforce the Dumbstupidness install,\nor just press ENTER if you're uncertain. I'll close the program for you.\n\033[0m")
+    f"\n\033[32mHey, so, I have this cool little thing where I can reinstall fleasion.py and assets.json.\nThat way, I can make sure everything goes perfectly right when applying Dumbstupidness to Fleasion.\nIt DOES mean that if you've edited those files yourself, those changes will be removed.\nMake backups in that case. I don't want your own progress to be gone.\n\nI can also, alternatively, not reinstall Fleasion, and just bruteforce the installation.\nIf you've installed Dumbstupidness before, you WILL I repeat WILL see duplicate entries in everything.\n\nType 'install' to update and overwrite fleasion.py and assets.json,\n'skip' to bruteforce the Dumbstupidness install,\nor just press ENTER if you're uncertain. I'll close the program for you.\n\033[0m")
 if blockwarn == "install":
     os.remove("fleasion.py")
     response = requests.get('https://raw.githubusercontent.com/CroppingFlea479/Fleasion/main/fleasion.py')
@@ -135,3 +135,6 @@ with open('assets.json','r') as file2:
     
             with open('assets.json', 'w') as file2:
                 file2.writelines(new_lines)
+time.sleep(0.3)
+print("\033[95mAlright, all should be good! Now run Fleasion.py, and hopefully the changes should've been made.")
+os.system('pause')
