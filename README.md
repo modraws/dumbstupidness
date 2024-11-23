@@ -4,6 +4,7 @@ or add the line below to your run.bat
 
 ## IF ANY HASHES DON'T WORK, PLEASE PING ME!!! @modraws ON DISCORD  
 be sure to join [this roblox place](https://rblx.games/18580671315) to cache all the images and sounds and whateverthefuck  
+# dumbstupidness is not, and won't ever be paywalled. if mo or anyone else says so, they're 100 percent fucking with you alr cheers  
 
 big thanks to  
 @zerodelta_ for a zip bomb's worth of reticles jesus shit  
