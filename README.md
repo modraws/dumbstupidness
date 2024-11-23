@@ -18,7 +18,7 @@ Click the button that says "<> Code", then press "Download ZIP".
 Open your file manager and go to the folder where you put Fleasion.  
 Extract the ZIP into this folder. The files will be in a subfolder called dumbstupidness-main,  
 so make sure to move all the files from the subfolder, to the folder where Fleasion is located.  
-Screenshot for reference.
+Screenshot for reference.  
 ![image](https://github.com/user-attachments/assets/f186854c-be6d-4184-9e56-85b0a1a79fe5)  
 
 Next, open a command prompt inside of the folder.  
@@ -30,7 +30,7 @@ Then, while inside the folder, click the address bar at the top, copy the entire
 go to the Command Prompt, and type this: `cd "the address you just copied"`  
 Example: `cd "C:\Users\eagle\Downloads\fleasion + dstp"`</sub>  
 
-The command prompt window should look somewhat like this.
+The command prompt window should look somewhat like this.  
 ![image2](https://github.com/user-attachments/assets/0739f22c-036c-4848-a331-1ebc433e9e1a)  
 
 Assuming you've ran Fleasion before, all the dependencies should exist.  
