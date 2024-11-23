@@ -23,12 +23,13 @@ if blockwarn == "install":
     response = requests.get('https://raw.githubusercontent.com/CroppingFlea479/Fleasion/main/fleasion.py')
     with open('fleasion.py', 'wb') as f:
         f.write(response.content)
-    print("\033[32mThat's Fleasion done,\033[0m")
+    print("\033[32mThat's Fleasion done,\n\033[0m")
     os.remove("assets.json")
     response = requests.get('https://raw.githubusercontent.com/CroppingFlea479/Fleasion/main/assets.json')
     with open('assets.json', 'wb') as f:
         f.write(response.content)
-    print("\033[32m...and that's the assets list! Alright, I will now inject my dumbstupid beauty into these newly fetched files.")
+    print("\033[32m...and that's the assets list! Alright, I will now inject my dumbstupid beauty into these newly fetched files.\n")
+    time.sleep(3)
 elif blockwarn == "skip":
     print("\033[32m...aaalllright, if you're that certain.\033[0m")
     pass
@@ -138,3 +139,4 @@ with open('assets.json','r') as file2:
 time.sleep(0.3)
 print("\033[95mAlright, all should be good! Now run Fleasion.py, and hopefully the changes should've been made.")
 os.system('pause')
+print("\033[0m")"
