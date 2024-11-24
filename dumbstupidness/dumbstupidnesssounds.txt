@@ -11,8 +11,8 @@
             "color bass killsound provided by @neohena":"c08f231add4ceb0caf8fa6d1fed7cca7",
             "ultrakill hitsound provided by @neohena":"1b44dcc390b736ca4b4d3950a98ea303",
             "ultrakill killsound provided by @neohena":"2b427c86debefd16930abefd9a527a86",
-	    "garand hitsound provided by @neohena":"0699edd5d237ed7a91176c26a77e1aba",
-	    "garand killsound provided by @neohena":"f9ea680f310d7eca6fd8f58226d64c70",
-	    "sega genesis hitsound provided by @neohena":"7a71021a7586cda5218368746e73d0ef",
-	    "sega genesis killsound provided by @neohena":"3ff2658b20bf33a50e5ce0e53ec11e22"
-        },
+    	    "garand hitsound provided by @neohena":"0699edd5d237ed7a91176c26a77e1aba",
+	        "garand killsound provided by @neohena":"f9ea680f310d7eca6fd8f58226d64c70",
+    	    "sega genesis hitsound provided by @neohena":"7a71021a7586cda5218368746e73d0ef",
+	        "sega genesis killsound provided by @neohena":"3ff2658b20bf33a50e5ce0e53ec11e22"
+            },

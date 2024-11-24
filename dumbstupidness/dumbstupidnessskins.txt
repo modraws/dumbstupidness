@@ -1,6 +1,6 @@
         "dumbstupid (join https://rblx.games/18580671315 first)": {
             "the originals":{
                 "programmer socks for your arms": "96981f813030ca1f86c424dcb3c22371",
-		">w< for your sleeves": "739afe4e601e830829ae7675410e7316"
+		        ">w< for your sleeves": "739afe4e601e830829ae7675410e7316"
             }
         },

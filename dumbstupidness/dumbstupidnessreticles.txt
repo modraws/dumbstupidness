@@ -2,7 +2,7 @@
             "the originals":{
                 "yolo pilad": "4bee1c8a394923bee7078462a27db7a7",
                 "soycog 6x": "6c4eae63d97c83a4bd970a57f783cade",
-                "x0: diamond dot, by @zerodelta_": "b8e536e34618358b38c6bd9f6f0ed316",
+                "x0: diamond dot, by @zerodelta_": "78739c325273685e7b76f85f76084ab8",
                 "x1: barska inside reflector, by @zerodelta_": "b5a3dc0dda7e7d4221945a092f2feab9",
                 "x2: eotech exps3-dcr, by @zerodelta_": "9f73c1aaa67d2bb118754a4fd7f0a3e0",
                 "x3: eotech exps3-dcr without the chevron, by @zerodelta_": "0189e3f8dbdd2604c9b87e1adf1f561f",
@@ -48,7 +48,7 @@
             "zerodelta y-collection (bigger and uniform white)":{
                 "y4 by @zerodelta_": "a5a06e36ba5ad1f2096712f7403b529b",
                 "y5 by @zerodelta_": "7c6493cc8d24822c0112151dc5e2cd33",
-                "y6 by @zerodelta_": "e805ae588f4f67ef12b2c2aff2c477ee",
+                "y6 by @zerodelta_": "dd7e7b4ca86c823d4ad99a7cd6fd945f",
                 "y7 by @zerodelta_": "d0961439edeb12104fb9937c45622f30",
                 "y8 by @zerodelta_": "5faf86fffba0d2475be1d37ecc0af33d",
                 "y9 by @zerodelta_": "d7de7c8872e781fd3f592e1358c4625a",
@@ -92,7 +92,7 @@
                 "targeted": "1d99691eceb79891f6b7cdbb888638df",
                 "focused": "29cefedc279eb945d5113a793bffe796",
                 "digital threat v2": "0d11bb0e65c604e12d745c18ea111684",
-		"Retroangular": "8300ca049493d2c1b607be6a58745756",
+		        "Retroangular": "8300ca049493d2c1b607be6a58745756",
                 "OwOled": "fb9850e08a3e56019ee835788b7eceab",
                 ">w<": "4086f98eae1678598bcf0bc468805215"
             }
