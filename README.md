@@ -44,4 +44,4 @@ Just reach out to me in the Fleasion discord server, my username is and always w
 Alternatively, you can open a pull request with the asset or asset id if you've already uploaded it  
 and i'll add that
 
-![dumbstupidnesslogo](https://github.com/user-attachments/assets/d6b3bd6a-f541-48ac-9019-a0c1767717d5)
+![dustypbidness](https://github.com/user-attachments/assets/5c7048e1-bac5-4e66-92ba-e28a262eff52)
