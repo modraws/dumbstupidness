@@ -15,6 +15,7 @@ the guys from the [fleasion project](https://github.com/CroppingFlea479/Fleasion
 yeah
 
 # A tutorial  
+[A step-by-step video for those who can't read](https://youtu.be/M0nS-Cv0yN0)
 Click the button that says "<> Code", then press "Download ZIP".  
 Open your file manager and go to the folder where you put Fleasion.  
 Extract the ZIP into this folder. The files will be in a subfolder called dumbstupidness-main,  
