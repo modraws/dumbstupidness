@@ -17,7 +17,7 @@
                         output.append((['18ff02c763205099ce8542cebc98ae71'], 'd768cdda6f6ffbccada7497bd88b8bdb'))
                     case 7:
                         izhmash_option = input(
-                            f"\nWhat part of the Izhmash iron sights would you like deleted?\n1: \033[95mFront{DEFAULT}\n2: \033[95mFront (detail){DEFAULT}\n3: \033[95mRear{DEFAULT}\n4: \033[95mRear (detail){DEFAULT}\n: ")
+                            f"\nWhat part of the Izhmash iron sights would you like deleted?\n1: \033[95mRear{DEFAULT}\n2: \033[95mRear (detail){DEFAULT}\n3: \033[95mFront{DEFAULT}\n4: \033[95mFront (detail){DEFAULT}\n: ")
                         match int(izhmash_option):
                             case 1:
                                 output.append((['0d910831a0fe0b50fe2c50125e7b8f52'], '058e54ef5ad3fb914c34a6f446a36702'))
