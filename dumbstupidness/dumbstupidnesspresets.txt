@@ -1,19 +1,33 @@
             case 89:
-                mo_option = input(f"Enter option:\n1: \033[95mYOLO Pilad 3{DEFAULT} (join https://rblx.games/18580671315 for this to work!)\n2: \033[95mSoyCOG 6x{DEFAULT} (join https://rblx.games/18580671315 for this to work!)\n3: \033[95mReplace the start up swoosh{DEFAULT}\n4: \033[95mnKousaku sight delete (basically a remove irons now){DEFAULT}\n5: \033[95mStriped sleeves funny{DEFAULT}\n6: \033[94mCustom sleeves and textured gloves{DEFAULT} (join https://rblx.games/73035573082067 for this to work!)\nMore customisation via the other options!\nEnter option: ")
+                mo_option = input(f"Enter option:\n1: \033[95mYOLO Pilad 3{DEFAULT} (join https://rblx.games/18580671315 for this to work!)\n2: \033[95mSoyCOG 6x{DEFAULT} (join https://rblx.games/18580671315 for this to work!)\n3: \033[95mReplace the start up swoosh{DEFAULT}\n4: \033[95mnKousaku sight delete (basically a remove irons now){DEFAULT}\n5: \033[95mStriped sleeves funny{DEFAULT}\n6: \033[94mCustom sleeves and textured gloves{DEFAULT} (join https://rblx.games/73035573082067 for this to work!)\n7: \033[95mEdit the Izhmash Sight{DEFAULT}\nMore customisation via the other options!\nEnter option: ")
                 match int(mo_option):
                     case 1: 
-                        replace(['9e0d4a22b0de11ac506f5478fa88f826'], '4bee1c8a394923bee7078462a27db7a7')
+                        output.append((['9e0d4a22b0de11ac506f5478fa88f826'], '4bee1c8a394923bee7078462a27db7a7'))
                     case 2: 
-                        replace(['c814f34c89a61186ef38bd3e50e1f98f'], '6c4eae63d97c83a4bd970a57f783cade')
+                        output.append((['c814f34c89a61186ef38bd3e50e1f98f'], '6c4eae63d97c83a4bd970a57f783cade'))
                     case 3: 
-                        replace(['fdbab7608661dafc624b781910efd953'], dlist("replacement sounds"))
+                        output.append((['fdbab7608661dafc624b781910efd953'], dlist("replacement sounds")))
                     case 4:
-                        replace(['37e910735ccad100a16be87e317fa493', '4be666288d9b7e9743bd15c7666e661c', 'd14bb9a7d755b15ea8bd2d1639eeda50'], '5873cfba79134ecfec6658f559d8f320')
+                        output.append((['37e910735ccad100a16be87e317fa493', '4be666288d9b7e9743bd15c7666e661c', 'd14bb9a7d755b15ea8bd2d1639eeda50'], '5873cfba79134ecfec6658f559d8f320'))
                     case 5:
-                        replace(['8813bbc8c0f7c0901fc38c1c85935fec', '41dd03caa0c8001511e93ec010812a94'], '96981f813030ca1f86c424dcb3c22371')
+                        output.append((['8813bbc8c0f7c0901fc38c1c85935fec', '41dd03caa0c8001511e93ec010812a94'], '96981f813030ca1f86c424dcb3c22371'))
                     case 6:
-                        replace(['7ea2f992988aea2fd6431f9906174fe4', '5de75379be644ee64d7ad3101d3acce0'], '5873cfba79134ecfec6658f559d8f320')
-                        replace(['0417f106902be46503fc75266526817a'], '0321e9d9a87b67de48c87bf4360ad884')
-                        replace(['18ff02c763205099ce8542cebc98ae71'], 'd768cdda6f6ffbccada7497bd88b8bdb')
+                        output.append((['7ea2f992988aea2fd6431f9906174fe4', '5de75379be644ee64d7ad3101d3acce0'], '5873cfba79134ecfec6658f559d8f320'))
+                        output.append((['0417f106902be46503fc75266526817a'], '0321e9d9a87b67de48c87bf4360ad884'))
+                        output.append((['18ff02c763205099ce8542cebc98ae71'], 'd768cdda6f6ffbccada7497bd88b8bdb'))
+                    case 7:
+                        izhmash_option = input(
+                            f"\nWhat part of the Izhmash iron sights would you like deleted?\n1: \033[95mFront{DEFAULT}\n2: \033[95mFront (detail){DEFAULT}\n3: \033[95mRear{DEFAULT}\n4: \033[95mRear (detail){DEFAULT}\n: ")
+                        match int(izhmash_option):
+                            case 1:
+                                output.append((['0d910831a0fe0b50fe2c50125e7b8f52'], '058e54ef5ad3fb914c34a6f446a36702'))
+                            case 2:
+                                output.append((['edc7f492f5384f4db6f306bf8be26341'], '058e54ef5ad3fb914c34a6f446a36702'))
+                            case 3:
+                                output.append((['80e288c6f1ee8597b93ca2e748d1ab68'], '058e54ef5ad3fb914c34a6f446a36702'))
+                            case 4:
+                                output.append((['ca6de453e3071d01016a0fb31d68648d'], '058e54ef5ad3fb914c34a6f446a36702'))
+                            case _:
+                                print("Enter a Valid Option!")
                     case _:
                         print("Enter a Valid Option!")
