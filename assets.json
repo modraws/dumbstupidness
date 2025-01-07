@@ -1253,7 +1253,8 @@
     	    "garand hitsound provided by @neohena":"0699edd5d237ed7a91176c26a77e1aba",
 	        "garand killsound provided by @neohena":"f9ea680f310d7eca6fd8f58226d64c70",
     	    "sega genesis hitsound provided by @neohena":"7a71021a7586cda5218368746e73d0ef",
-	        "sega genesis killsound provided by @neohena":"3ff2658b20bf33a50e5ce0e53ec11e22"
+	        "sega genesis killsound provided by @neohena":"3ff2658b20bf33a50e5ce0e53ec11e22",
+            "fadinglight sent me this i have no clue how to describe it": "f80d13681fe883cdd3cb7ba198c64035"
             },
         "hit sounds": {
             "default": "a177d2c00abd3e550b873d76c97ad960",
@@ -1455,6 +1456,7 @@
                 "x0: diamond dot, by @zerodelta_": "78739c325273685e7b76f85f76084ab8",
                 "x1: barska inside reflector, by @zerodelta_": "b5a3dc0dda7e7d4221945a092f2feab9",
                 "x2: eotech exps3-dcr, by @zerodelta_": "9f73c1aaa67d2bb118754a4fd7f0a3e0",
+                "x2: eotech exps3-dcr, enlarged to hopefully fit the OLED": "d170a52cc3db47b484fcca49c055c804",
                 "x3: eotech exps3-dcr without the chevron, by @zerodelta_": "0189e3f8dbdd2604c9b87e1adf1f561f",
                 "x3 alt: the above but sized up, by @zerodelta_": "353ce12912ac946ec18c78eec8da2bcc",
                 "owo": "b110054d43125d6fa477dfae373e99ac",
