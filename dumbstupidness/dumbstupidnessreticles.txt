@@ -1,4 +1,4 @@
-        "dumbstupid (join https://rblx.games/18580671315 first) (see discord thread for previews)": {
+        "dumbstupidness reticles": {
             "the originals":{
                 "yolo pilad": "4bee1c8a394923bee7078462a27db7a7",
                 "soycog 6x": "6c4eae63d97c83a4bd970a57f783cade",
