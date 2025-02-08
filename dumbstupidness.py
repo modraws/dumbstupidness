@@ -19,13 +19,8 @@ else:
 blockwarn = input(
     f"\n\033[32mHey, so, I have this cool little thing where I can reinstall fleasion.py and assets.json.\nThat way, I can make sure everything goes perfectly right when applying Dumbstupidness to Fleasion.\nIt DOES mean that if you've edited those files yourself, those changes will be removed.\nMake backups in that case. I don't want your own progress to be gone.\n\nI can also, alternatively, not reinstall Fleasion, and just bruteforce the installation.\nIf you've installed Dumbstupidness before, you WILL I repeat WILL see duplicate entries in everything.\n\nType 'install' to update and overwrite fleasion.py and assets.json,\n'skip' to bruteforce the Dumbstupidness install,\nor just press ENTER if you're uncertain. I'll close the program for you.\n\033[0m")
 if blockwarn == "install":
-    os.remove("fleasion.py")
-    response = requests.get('https://raw.githubusercontent.com/CroppingFlea479/Fleasion/main/fleasion.py')
-    with open('fleasion.py', 'wb') as f:
-        f.write(response.content)
-    print("\033[32mThat's Fleasion done,\n\033[0m")
     os.remove("assets.json")
-    response = requests.get('https://raw.githubusercontent.com/CroppingFlea479/Fleasion/main/assets.json')
+    response = requests.get('https://raw.githubusercontent.com/qrhrqiohj/phantom-forces/refs/heads/main/assets.json')
     with open('assets.json', 'wb') as f:
         f.write(response.content)
     print("\033[32m...and that's the assets list! Alright, I will now inject my dumbstupid beauty into these newly fetched files.\n")
@@ -37,46 +32,6 @@ else:
     print("\033[32mYeah, I get that. I'll see you when you really want to install Dumbstupidness. Buhbye!\033[0m")
     time.sleep(3)
     sys.exit(0)
-
-with open('fleasion.py','r') as file2:
-    phrase='options = input(": ")'
-
-    for (insert_row, line) in enumerate(file2):
-        if phrase in line:
-            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/refs/heads/old-version/dumbstupidness/custompresetlist.txt')
-            with open('dumbstupidness/custompresetlist.txt', 'wb') as f:
-                f.write(response.content)
-            with open('dumbstupidness/custompresetlist.txt', 'r+') as file1, open('fleasion.py', 'r') as file2:
-                file1_lines = file1.readlines()
-                file2_lines = file2.readlines()
-
-            print("\033[32mAdded entries for Dumbstupidness in the main menu.\033[0m\n")
-
-            new_lines = file2_lines[:insert_row] + file1_lines + file2_lines[insert_row:]
-    
-            with open('fleasion.py', 'w') as file2:
-                file2.writelines(new_lines)
-time.sleep(0.3)
-
-with open('fleasion.py','r') as file2:
-    phrase='match int(options):'
-
-    for (insert_row, line) in enumerate(file2):
-        if phrase in line:
-            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/refs/heads/old-version/dumbstupidness/dumbstupidnesspresets.txt')
-            with open('dumbstupidness/dumbstupidnesspresets.txt', 'wb') as f:
-                f.write(response.content)
-            with open('dumbstupidness/dumbstupidnesspresets.txt', 'r') as file1, open('fleasion.py', 'r') as file2:
-                file1_lines = file1.readlines()
-                file2_lines = file2.readlines()
-
-            print("\033[32mPasted Dumbstupidness presets in fleasion.py.\033[0m\n")
-
-            new_lines = file2_lines[:insert_row+1] + file1_lines + file2_lines[insert_row+1:]
-    
-            with open('fleasion.py', 'w') as file2:
-                file2.writelines(new_lines)
-time.sleep(0.3)
 
 with open('assets.json','r') as file2:
     phrase='"skins": {'
@@ -137,6 +92,6 @@ with open('assets.json','r') as file2:
             with open('assets.json', 'w') as file2:
                 file2.writelines(new_lines)
 time.sleep(0.3)
-print("\033[95mAlright, all should be good! Now run Fleasion.py, and hopefully the changes should've been made.")
+print("\033[95mAlright, all should be good! Now upload the file to Github, and hopefully the changes should've been made.")
 os.system('pause')
 print("\033[0m")
