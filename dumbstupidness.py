@@ -7,7 +7,7 @@ updatewarn = input(
     f"\n\033[95mHey, just so you know, you can update me now!\nMakes it easy for when I've got new versions of this file you're executing.\nJust to be clear, I've already been grabbing the newest versions of my entries in assets.json and fleasion.py.\nBut sometimes changes will be made to ME too, and you can update me then!\nKeep an eye out on the dumbstupidness-updates channel for when Mo or Neo updates me!\n\nType 'install' to update me. I'll close after this, so make sure to run me again!\nAny other input will continue to the next step, which is installing Dumbstupidness proper.\n\033[0m")
 if updatewarn == "install":
     os.remove("dumbstupidness.py")
-    response = requests.get('https://github.com/modraws/dumbstupidness/raw/refs/heads/main/dumbstupidness.py')
+    response = requests.get('https://github.com/modraws/dumbstupidness/raw/refs/heads/old-version/dumbstupidness.py')
     with open('dumbstupidness.py', 'wb') as f:
         f.write(response.content)
     print("\033[95mAlright, Dumbstupidness is updated! Make sure to skip this prompt next time you launch me.\033[0m")
@@ -43,7 +43,7 @@ with open('fleasion.py','r') as file2:
 
     for (insert_row, line) in enumerate(file2):
         if phrase in line:
-            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/custompresetlist.txt')
+            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/old-version/dumbstupidness/custompresetlist.txt')
             with open('dumbstupidness/custompresetlist.txt', 'wb') as f:
                 f.write(response.content)
             with open('dumbstupidness/custompresetlist.txt', 'r+') as file1, open('fleasion.py', 'r') as file2:
@@ -63,7 +63,7 @@ with open('fleasion.py','r') as file2:
 
     for (insert_row, line) in enumerate(file2):
         if phrase in line:
-            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnesspresets.txt')
+            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/old-version/dumbstupidness/dumbstupidnesspresets.txt')
             with open('dumbstupidness/dumbstupidnesspresets.txt', 'wb') as f:
                 f.write(response.content)
             with open('dumbstupidness/dumbstupidnesspresets.txt', 'r') as file1, open('fleasion.py', 'r') as file2:
@@ -83,7 +83,7 @@ with open('assets.json','r') as file2:
 
     for (insert_row, line) in enumerate(file2):
         if phrase in line:
-            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnessskins.txt')
+            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/old-version/dumbstupidness/dumbstupidnessskins.txt')
             with open('dumbstupidness/dumbstupidnessskins.txt', 'wb') as f:
                 f.write(response.content)
             with open('dumbstupidness/dumbstupidnessskins.txt', 'r') as file1, open('assets.json', 'r') as file2:
@@ -103,7 +103,7 @@ with open('assets.json','r') as file2:
 
     for (insert_row, line) in enumerate(file2):
         if phrase in line:
-            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnessreticles.txt')
+            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/old-version/dumbstupidness/dumbstupidnessreticles.txt')
             with open('dumbstupidness/dumbstupidnessreticles.txt', 'wb') as f:
                 f.write(response.content)
             with open('dumbstupidness/dumbstupidnessreticles.txt', 'r') as file1, open('assets.json', 'r') as file2:
@@ -123,7 +123,7 @@ with open('assets.json','r') as file2:
 
     for (insert_row, line) in enumerate(file2):
         if phrase in line:
-            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/main/dumbstupidness/dumbstupidnesssounds.txt')
+            response = requests.get('https://raw.githubusercontent.com/modraws/dumbstupidness/old-version/dumbstupidness/dumbstupidnesssounds.txt')
             with open('dumbstupidness/dumbstupidnesssounds.txt', 'wb') as f:
                 f.write(response.content)
             with open('dumbstupidness/dumbstupidnesssounds.txt', 'r') as file1, open('assets.json', 'r') as file2:
