@@ -1,6 +1,7 @@
 from colorama import Fore, Style, init
 init()
 import importlib.util
+import os
 
 # user guide for making your own
 # addon/addon2 will set replacee/replacement to a string. addon can be a list (optional), addon2 cant
@@ -19,9 +20,9 @@ def get_valid_input(prompt, valid_values=None):
             if valid_values is None or int(user_input) in valid_values:
                 return int(user_input)
             else:
-                print(f"{Fore.MAGENTA}\nInvalid option. Please choose from {valid_values}.\n{Style.RESET_ALL}")
+                print(f"{Fore.RED}\nInvalid option. Please choose from {valid_values}.\n{Style.RESET_ALL}")
         except ValueError:
-            print(f"{Fore.MAGENTA}\nInvalid input. Please enter a valid number.\n{Style.RESET_ALL}")
+            print(f"{Fore.RED}\nInvalid input. Please enter a valid number.\n{Style.RESET_ALL}")
 
 
 def push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names):
@@ -30,9 +31,29 @@ def push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, displa
     spec.loader.exec_module(backbone_module)
 
     if hasattr(backbone_module, "backbone"):
-        json_data, start_key, start_key2, addon, addon2, skip = backbone_module.backbone(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
+        json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names = backbone_module.backbone(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
     else:
         print(f"Error: The file {backbone_module} does not contain a `backbone` function.")
+
+
+def bloxstrap():
+    base_path = os.path.join(os.getenv('LOCALAPPDATA'), 'Bloxstrap', 'Modifications')
+    nested_folders = ["PlatformContent", "pc", "textures", "sky"]
+
+    if not os.path.exists(base_path):
+        print(f"{Fore.RED}bloxstrap not found{Style.RESET_ALL}")
+    else:
+        path = base_path
+        for folder in nested_folders:
+            path = os.path.join(path, folder)
+            if not os.path.exists(path):
+                os.makedirs(path)
+                print(f"Created folder: {path}")
+            else:
+                print(f"Folder already exists: {path}")
+
+        print("All folders created successfully! Import your skyboxes into the opened folder.")
+        os.startfile(path)
 
 
 def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names):
@@ -153,7 +174,7 @@ Type 'back' to return to the previous menu.
                                 return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                             case 2:
                                 start_key = "kill default"
-                                addon2 = "dumbstupidness sounds"
+                                start_key2 = "dumbstupidness sounds"
                                 return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                 case 6:
                     while True:
