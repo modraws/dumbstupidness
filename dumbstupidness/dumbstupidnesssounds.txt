@@ -1,4 +1,4 @@
-        "dumbstupid (join https://rblx.games/18580671315 first)": {
+        "dumbstupidness sounds": {
             "default": "fdbab7608661dafc624b781910efd953",
             "a few seconds of Full Force": "be864d5fa96ef8c13feba5c16ffd25d6",
             "a few seconds of Cold Front": "78055240df6907abd0f83294ad34986d",
