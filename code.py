@@ -59,7 +59,14 @@ def bloxstrap():
 def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names):
 
     while True:
-        options = get_valid_input(f"""Asset replacements:
+        options = get_valid_input(f"""{Fore.LIGHTMAGENTA_EX}Before anyone asks, Dumbstupidness will no longer be updated with more assets.
+I will archive this, maybe only changing hashes as they become outdated.
+I've just... really lost interest in working on this.
+I hope you can understand.
+
+-Mo{Style.RESET_ALL}
+
+Alright, now that the sentimental stuff's over:
 0:  {Fore.LIGHTMAGENTA_EX}Custom{Style.RESET_ALL}
 1:  {Fore.LIGHTMAGENTA_EX}Sights{Style.RESET_ALL}
 2:  {Fore.LIGHTMAGENTA_EX}Sleeves{Style.RESET_ALL}
