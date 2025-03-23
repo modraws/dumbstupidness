@@ -59,7 +59,7 @@ def bloxstrap():
 def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names):
 
     while True:
-        options = get_valid_input(f"""{Fore.LIGHTMAGENTA_EX}Before anyone asks, Dumbstupidness will no longer be updated with more assets.
+        options = get_valid_input(f"""{Fore.LIGHTMAGENTA_EX}Before anyone asks, Dumbstupidness will PROBABLY no longer be updated with more assets.
 I will archive this, maybe only changing hashes as they become outdated.
 I've just... really lost interest in working on this.
 I hope you can understand.
