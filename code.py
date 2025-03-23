@@ -63,6 +63,8 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
 I will archive this, maybe only changing hashes as they become outdated.
 I've just... really lost interest in working on this.
 I hope you can understand.
+I want to thank @zerodelta_ and @hena for the cool reticles and the great work they've done.
+Sorry it all went to waste due to this stupid fucker no longer caring about dumbstupidness lol
 
 -Mo{Style.RESET_ALL}
 
